@@ -62,9 +62,6 @@ python scripts/check_outputs.py
 
 The source GEO data were generated and released by the respective original research teams. Please cite GSE161537, GSE126044, GSE190265, GSE190266, GSE135222 and the original PhaSePro publication (Mészáros et al., *Nucleic Acids Research*, 2020, https://doi.org/10.1093/nar/gkz848). This archive does not assert ownership of those datasets. The code is made available under the MIT license; **third-party data retain their original applicable terms**.
 
-## Citing this code
-
-When the paper is published, cite the paper and the public repository at its *actual, verified* GitHub URL (prefer a fixed commit hash or DOI-backed archive). There is no valid public repository URL until the files have been uploaded to a repository.
 
 ## Editorial transparency
 
