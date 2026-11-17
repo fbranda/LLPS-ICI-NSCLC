@@ -1,7 +1,4 @@
 # LLPS-associated transcriptomic signatures in ICI-treated NSCLC: multicohort reanalysis
-
-**Reproducibility repository for a scientific manuscript in preparation for the Computational and Structural Biotechnology Journal (CSBJ).** Manuscript status: **in preparation / not yet accepted or published**. No article DOI or published GitHub URL should be inferred from this archive.
-
 This repository contains the **actual processed public data, human PhaSePro curations, Python source code, analysis-level output tables, locked predictions, and sensitivity results** underlying an exploratory retrospective multicohort reanalysis of LLPS-associated transcripts in immune checkpoint inhibitor (ICI)-treated non-small-cell lung cancer.
 
 The central question is **cross-cohort reproducibility and the incremental association with ICI-treated outcomes**, *not* a claim to have validated an LLPS-specific treatment-benefit biomarker or to have directly measured liquid-liquid phase separation.
