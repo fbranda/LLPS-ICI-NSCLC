@@ -1,0 +1,7 @@
+# Pre-specified six genes from Yan et al. 2026 IJMS; these are NOT all proven LLPS drivers.
+MGAT5B
+E2F7
+IGF2BP1
+F2
+POPDC3
+GRIA1

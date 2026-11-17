@@ -1,0 +1,60 @@
+gene,uniprot,source_accession,name,common_name,organism,gene_raw
+AGO2,Q9UKV8,Q9UKV8,Protein argonaute-2,AGO2,Homo sapiens,AGO2
+APP,P05067,P05067,Amyloid-beta A4 protein,Amyloid-beta oligomer,Homo sapiens,APP
+BRD4,O60885,O60885,Bromodomain-containing protein 4,BRD4,Homo sapiens,BRD4
+CBX2,Q14781,Q14781,Chromobox protein homolog 2,CBX2,Homo sapiens,CBX2
+CBX5,P45973,P45973,Chromobox protein homolog 5,HP1α,Homo sapiens,CBX5
+CCNT1,O60563,O60563,Cyclin-T1,"Cyclin-T1, CYCT1",Homo sapiens,CCNT1
+CGAS,Q8N884,Q8N884,Cyclic GMP-AMP synthase,cGAS,Homo sapiens,CGAS
+CPEB3,Q8NE35,Q8NE35,Cytoplasmic polyadenylation element-binding protein 3,CPEB3,Homo sapiens,CPEB3
+DAXX,Q9UER7,Q9UER7,Death domain-associated protein 6,DAXX,Homo sapiens,DAXX
+DDX3X,O00571,O00571,ATP-dependent RNA helicase DDX3X,DDX3,Homo sapiens,DDX3X
+DDX4,Q9NQI0,Q9NQI0,Probable ATP-dependent RNA helicase DDX4,DDX4,Homo sapiens,DDX4
+DLG4_HUMAN,P78352-3,P78352-3,Isoform 3 of Disks large homolog 4,PSD-95,Homo sapiens,DLG4_HUMAN
+DYRK1A,Q13627,Q13627,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,DYRK1A,Homo sapiens,DYRK1A
+DYRK3,O43781,O43781,Dual specificity tyrosine-phosphorylation-regulated kinase 3,DYRK3,Homo sapiens,DYRK3
+ELN,P15502,P15502,Elastin,Elastin,Homo sapiens,ELN
+ESR1,P03372,P03372,Estrogen receptor,ERα,Homo sapiens,ESR1
+EWSR1,Q01844,Q01844,RNA-binding protein EWS,EWS,Homo sapiens,EWSR1
+FMR1,Q06787,Q06787,Synaptic functional regulator FMR1,FMRP,Homo sapiens,FMR1
+FUS,P35637,P35637,RNA-binding protein FUS,FUS,Homo sapiens,FUS
+GATA3,P23771,P23771,Trans-acting T-cell-specific transcription factor GATA-3,GATA3,Homo sapiens,GATA3
+GRB2,P62993,P62993,Growth factor receptor-bound protein 2,GRB2,Homo sapiens,GRB2
+HNRNPA1,P09651,P09651,Heterogeneous nuclear ribonucleoprotein A1,"HNRNPA1, HNRPA1",Homo sapiens,HNRNPA1
+HNRNPA2B1,P22626-2,P22626-2,Isoform A2 of Heterogeneous nuclear ribonucleoproteins A2/B1,"HNRNPA2B1, HNRPA2B1",Homo sapiens,HNRNPA2B1
+HNRNPD,Q14103,Q14103,Heterogeneous nuclear ribonucleoprotein D0,HNRNPD,Homo sapiens,HNRNPD
+HSPB2,Q16082,Q16082,Heat shock protein beta-2,HSPB2,Homo sapiens,HSPB2
+KHDRBS1,Q07666,Q07666,"KH domain-containing, RNA-binding, signal transduction-associated protein 1",Sam68,Homo sapiens,KHDRBS1
+LAT,O43561,O43561,Linker for activation of T-cells family member 1,LAT,Homo sapiens,LAT
+LGALS3,P17931,P17931,Galectin-3,Galectin-3,Homo sapiens,LGALS3
+MAPT,P10636-8,P10636-8,Isoform Tau-F of Microtubule-associated protein tau,"Tau-F, Tau",Homo sapiens,MAPT
+MATR3,P43243,P43243,Matrin-3,Matrin-3,Homo sapiens,MATR3
+MED1,Q15648,Q15648,Mediator of RNA polymerase II transcription subunit 1,MED1,Homo sapiens,MED1
+MORC3,Q14149,Q14149,MORC family CW-type zinc finger protein 3,MORC3,Homo sapiens,MORC3
+NCK1,P16333,P16333,Cytoplasmic protein NCK1,"NCK1, Nck",Homo sapiens,NCK1
+NONO,Q15233,Q15233,Non-POU domain-containing octamer-binding protein,NONO,Homo sapiens,NONO
+NPHS1,O60500,O60500,Nephrin,Nephrin,Homo sapiens,NPHS1
+NPM1,P06748,P06748,Nucleophosmin,NPM1,Homo sapiens,NPM1
+NUP98,P52948,P52948,Nuclear pore complex protein Nup98-Nup96,NUP98,Homo sapiens,NUP98
+PML,P29590-12,P29590-12,Isoform PML-12 of Protein PML,PML,Homo sapiens,PML
+POLR2A,P24928,P24928,DNA-directed RNA polymerase II subunit RPB1,RPB1,Homo sapiens,POLR2A
+PRNP,P04156,P04156,Major prion protein,PrP,Homo sapiens,PRNP
+RBM14,Q96PK6,Q96PK6,RNA-binding protein 14,RBM14,Homo sapiens,RBM14
+SFPQ,P23246,P23246,"Splicing factor, proline- and glutamine-rich",SFPQ,Homo sapiens,SFPQ
+SOS1,Q07889,Q07889,Son of sevenless homolog 1,SOS1,Homo sapiens,SOS1
+SPOP,O43791,O43791,Speckle-type POZ protein,SPOP,Homo sapiens,SPOP
+SQSTM1,Q13501,Q13501,Sequestosome-1,p62,Homo sapiens,SQSTM1
+SYN1,P17600,P17600,Synapsin-1,SYN1,Homo sapiens,SYN1
+SYN2,Q92777,Q92777,Synapsin-2,SYN2,Homo sapiens,SYN2
+TAF15,Q92804,Q92804,TATA-binding protein-associated factor 2N,TAF15,Homo sapiens,TAF15
+TARDBP,Q13148,Q13148,TAR DNA-binding protein 43,"TDP-43, TDP43",Homo sapiens,TARDBP
+TIA1,P31483,P31483,Nucleolysin TIA-1 isoform p40,TIA1,Homo sapiens,TIA1
+TNRC6B,Q9UPQ9,Q9UPQ9,Trinucleotide repeat-containing gene 6B protein,"TNRC6B, GW182",Homo sapiens,TNRC6B
+TP53BP1,Q12888,Q12888,TP53-binding protein 1,53BP1,Homo sapiens,TP53BP1
+U2AF2,P26368,P26368,Splicing factor U2AF 65 kDa subunit,U2AF65,Homo sapiens,U2AF2
+UBQLN2,Q9UHD9,Q9UHD9,Ubiquilin-2,UBQLN2,Homo sapiens,UBQLN2
+WASL,O00401,O00401,Neural Wiskott-Aldrich syndrome protein,N-WASP,Homo sapiens,WASL
+YTHDF1,Q9BYJ9,Q9BYJ9,YTH domain-containing family protein 1,"YTHDF1, DF1",Homo sapiens,YTHDF1
+YTHDF2,Q9Y5A9,Q9Y5A9,YTH domain-containing family protein 2,"YTHDF2, DF2",Homo sapiens,YTHDF2
+YTHDF3,Q7Z739,Q7Z739,YTH domain-containing family protein 3,"YTHDF3, DF3",Homo sapiens,YTHDF3
+ZFP36L1,Q07352,Q07352,mRNA decay activator protein ZFP36L1,TIS11B,Homo sapiens,ZFP36L1

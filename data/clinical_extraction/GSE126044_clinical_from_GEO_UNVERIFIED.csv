@@ -1,0 +1,17 @@
+sample_id,cohort,histology,patient_id,pfs_time_raw,pfs_event_raw,os_time_raw,os_event_raw,age_raw,sex_raw,treatment_line_raw,source_title,response,response_source_field,response_original_label,response_source
+GSM3589673,GSE126044,,,,,,,,,,RNA-seq_Dis_01,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589674,GSE126044,,,,,,,,,,RNA-seq_Dis_02,1,patient_response,RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589675,GSE126044,,,,,,,,,,RNA-seq_Dis_11,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589676,GSE126044,,,,,,,,,,RNA-seq_Dis_12,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589677,GSE126044,,,,,,,,,,RNA-seq_Dis_15,1,patient_response,RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589678,GSE126044,,,,,,,,,,RNA-seq_Dis_04,1,patient_response,RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589679,GSE126044,,,,,,,,,,RNA-seq_Dis_16,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589680,GSE126044,,,,,,,,,,RNA-seq_Dis_17,1,patient_response,RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589681,GSE126044,,,,,,,,,,RNA-seq_Dis_03,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589682,GSE126044,,,,,,,,,,RNA-seq_Dis_10,1,patient_response,RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589683,GSE126044,,,,,,,,,,RNA-seq_Dis_06,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589684,GSE126044,,,,,,,,,,RNA-seq_Dis_18,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589685,GSE126044,,,,,,,,,,RNA-seq_Dis_09,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589686,GSE126044,,,,,,,,,,RNA-seq_Dis_05,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589687,GSE126044,,,,,,,,,,RNA-seq_Dis_07,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
+GSM3589688,GSE126044,,,,,,,,,,RNA-seq_Dis_08,0,patient_response,NON-RESPONDER,GEO family SOFT; verify with associated paper before inclusion
