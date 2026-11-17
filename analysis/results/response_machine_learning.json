@@ -1,0 +1,71 @@
+{
+  "development_n": 76,
+  "development_response_n": 20,
+  "external_n": 16,
+  "external_response_n": 5,
+  "num_shared_LLPS_features": 22,
+  "shared_genes": [
+    "APP",
+    "CBX5",
+    "CCNT1",
+    "DAXX",
+    "ESR1",
+    "FUS",
+    "GATA3",
+    "GRB2",
+    "HNRNPA1",
+    "HNRNPA2B1",
+    "HSPB2",
+    "LAT",
+    "LGALS3",
+    "MAPT",
+    "MED1",
+    "NPM1",
+    "PML",
+    "SOS1",
+    "SPOP",
+    "SQSTM1",
+    "WASL",
+    "ZFP36L1"
+  ],
+  "rank_features": "within-patient percentile ranks among shared genes",
+  "nested_cv_aucs_3_repeats": [
+    0.4285714285714286,
+    0.5142857142857142,
+    0.30178571428571427
+  ],
+  "nested_cv_average_precision_3_repeats": [
+    0.23225118910224746,
+    0.2900000099077095,
+    0.19277602045444175
+  ],
+  "nested_cv_brier_3_repeats": [
+    0.24104726505824062,
+    0.2735569659184517,
+    0.3018483757256908
+  ],
+  "mean_nested_AUC": 0.4148809523809524,
+  "range_nested_AUC": [
+    0.30178571428571427,
+    0.5142857142857142
+  ],
+  "final_hyperparameters": {
+    "model__C": 0.3,
+    "select__k": 22
+  },
+  "external_AUC": 0.8363636363636364,
+  "external_auc_naive_patient_bootstrap_95CI": [
+    0.5707142857142857,
+    1.0
+  ],
+  "external_average_precision": 0.7453968253968254,
+  "external_brier": 0.27948325632504395,
+  "selection_stability_folds": 15,
+  "MAJOR_LIMITATIONS": [
+    "all cohorts treated, no comparative arm",
+    "external n=16",
+    "different assay platforms",
+    "within-sample ranks contain platform biases",
+    "selected model on limited events"
+  ]
+}

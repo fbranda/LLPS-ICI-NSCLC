@@ -1,0 +1,503 @@
+{
+  "audit": {
+    "PhaSePro_source_records_human_symbols": 59,
+    "GSE161537": {
+      "matrix_genes": 2559,
+      "matrix_samples": 82,
+      "meta_samples": 82,
+      "RECIST_labeled": 76,
+      "responders": 20,
+      "histology_AD_samples": 55,
+      "AD_response_labeled": 51,
+      "PhaSePro_genes_measured": 22,
+      "MLORS_genes_measured": [
+        "F2"
+      ]
+    },
+    "GSE126044": {
+      "matrix_genes": 18745,
+      "matrix_samples": 16,
+      "meta_samples": 16,
+      "response_labeled": 16,
+      "responders": 5,
+      "PhaSePro_genes_measured": 57,
+      "MLORS_genes_measured": [
+        "E2F7",
+        "F2",
+        "GRIA1",
+        "IGF2BP1",
+        "MGAT5B",
+        "POPDC3"
+      ]
+    },
+    "GSE190265": {
+      "expression_genes": 33976,
+      "expression_samples_with_supplemental_PFS": 43,
+      "GEO_annotated_samples": 34,
+      "GEO_matched_with_expression": 26,
+      "PFS_with_unlinked_GEO_accession": 17,
+      "six_month_events": 29,
+      "samples_censored_before_6months": 0,
+      "PhaSePro_genes_measured": 56
+    },
+    "GSE190266": {
+      "expression_genes": 16383,
+      "matrix_samples": 70,
+      "GEO_annotated_samples": 70,
+      "six_month_events": 52,
+      "samples_censored_before_6months": 1,
+      "PhaSePro_genes_measured": 30,
+      "last_gene": "MTMR14",
+      "max_feature_count_matches_Excel_columns": true
+    },
+    "GSE135222": {
+      "matrix_ensembl_genes": 57820,
+      "samples": 27,
+      "PFS_events": 21,
+      "status": "PFS available; gene mapping missing, no candidate testing"
+    },
+    "common_PhaSePro_response_genes": [
+      "APP",
+      "CBX5",
+      "CCNT1",
+      "DAXX",
+      "ESR1",
+      "FUS",
+      "GATA3",
+      "GRB2",
+      "HNRNPA1",
+      "HNRNPA2B1",
+      "HSPB2",
+      "LAT",
+      "LGALS3",
+      "MAPT",
+      "MED1",
+      "NPM1",
+      "PML",
+      "SOS1",
+      "SPOP",
+      "SQSTM1",
+      "WASL",
+      "ZFP36L1"
+    ],
+    "common_PhaSePro_PFS_genes": [
+      "AGO2",
+      "APP",
+      "BRD4",
+      "CBX2",
+      "CBX5",
+      "CCNT1",
+      "CPEB3",
+      "DAXX",
+      "DDX3X",
+      "DDX4",
+      "DYRK1A",
+      "DYRK3",
+      "ELN",
+      "ESR1",
+      "EWSR1",
+      "FMR1",
+      "FUS",
+      "GATA3",
+      "GRB2",
+      "HNRNPA1",
+      "HNRNPA2B1",
+      "HNRNPD",
+      "HSPB2",
+      "KHDRBS1",
+      "LAT",
+      "LGALS3",
+      "MAPT",
+      "MATR3",
+      "MED1",
+      "MORC3"
+    ],
+    "source_expression_overlap_with_MLORS": {
+      "GSE190265": [
+        "E2F7",
+        "F2",
+        "GRIA1",
+        "IGF2BP1",
+        "MGAT5B",
+        "POPDC3"
+      ],
+      "GSE190266": [
+        "E2F7",
+        "F2",
+        "GRIA1",
+        "IGF2BP1",
+        "MGAT5B"
+      ]
+    }
+  },
+  "response": {
+    "development_n": 76,
+    "development_response_n": 20,
+    "external_n": 16,
+    "external_response_n": 5,
+    "num_shared_LLPS_features": 22,
+    "shared_genes": [
+      "APP",
+      "CBX5",
+      "CCNT1",
+      "DAXX",
+      "ESR1",
+      "FUS",
+      "GATA3",
+      "GRB2",
+      "HNRNPA1",
+      "HNRNPA2B1",
+      "HSPB2",
+      "LAT",
+      "LGALS3",
+      "MAPT",
+      "MED1",
+      "NPM1",
+      "PML",
+      "SOS1",
+      "SPOP",
+      "SQSTM1",
+      "WASL",
+      "ZFP36L1"
+    ],
+    "rank_features": "within-patient percentile ranks among shared genes",
+    "nested_cv_aucs_3_repeats": [
+      0.4285714285714286,
+      0.5142857142857142,
+      0.30178571428571427
+    ],
+    "nested_cv_average_precision_3_repeats": [
+      0.23225118910224746,
+      0.2900000099077095,
+      0.19277602045444175
+    ],
+    "nested_cv_brier_3_repeats": [
+      0.24104726505824062,
+      0.2735569659184517,
+      0.3018483757256908
+    ],
+    "mean_nested_AUC": 0.4148809523809524,
+    "range_nested_AUC": [
+      0.30178571428571427,
+      0.5142857142857142
+    ],
+    "final_hyperparameters": {
+      "model__C": 0.3,
+      "select__k": 22
+    },
+    "external_AUC": 0.8363636363636364,
+    "external_auc_naive_patient_bootstrap_95CI": [
+      0.5707142857142857,
+      1.0
+    ],
+    "external_average_precision": 0.7453968253968254,
+    "external_brier": 0.27948325632504395,
+    "selection_stability_folds": 15,
+    "MAJOR_LIMITATIONS": [
+      "all cohorts treated, no comparative arm",
+      "external n=16",
+      "different assay platforms",
+      "within-sample ranks contain platform biases",
+      "selected model on limited events"
+    ]
+  },
+  "response_screen": {
+    "number_tests": {
+      "GSE126044_NSCLC": 57,
+      "GSE161537_AD_only": 22,
+      "GSE161537_all_NSCLC": 22
+    },
+    "FDR_lt_0_05": {
+      "GSE126044_NSCLC": 0,
+      "GSE161537_AD_only": 0,
+      "GSE161537_all_NSCLC": 0
+    },
+    "top_genes": [
+      {
+        "cohort": "GSE126044_NSCLC",
+        "gene": "MAPT",
+        "MW_p": 0.0086996336996337,
+        "BH_FDR": 0.21923076923076926,
+        "AUC_single_gene": 0.09090909090909091
+      },
+      {
+        "cohort": "GSE126044_NSCLC",
+        "gene": "FUS",
+        "MW_p": 0.019230769230769232,
+        "BH_FDR": 0.21923076923076926,
+        "AUC_single_gene": 0.12727272727272726
+      },
+      {
+        "cohort": "GSE126044_NSCLC",
+        "gene": "LAT",
+        "MW_p": 0.019230769230769232,
+        "BH_FDR": 0.21923076923076926,
+        "AUC_single_gene": 0.8727272727272728
+      },
+      {
+        "cohort": "GSE126044_NSCLC",
+        "gene": "PRNP",
+        "MW_p": 0.019230769230769232,
+        "BH_FDR": 0.21923076923076926,
+        "AUC_single_gene": 0.8727272727272727
+      },
+      {
+        "cohort": "GSE126044_NSCLC",
+        "gene": "WASL",
+        "MW_p": 0.019230769230769232,
+        "BH_FDR": 0.21923076923076926,
+        "AUC_single_gene": 0.12727272727272726
+      },
+      {
+        "cohort": "GSE161537_all_NSCLC",
+        "gene": "LAT",
+        "MW_p": 0.036278053234152945,
+        "BH_FDR": 0.6078177344844014,
+        "AUC_single_gene": 0.6589285714285713
+      },
+      {
+        "cohort": "GSE161537_AD_only",
+        "gene": "HSPB2",
+        "MW_p": 0.04166867858411031,
+        "BH_FDR": 0.5986046113164596,
+        "AUC_single_gene": 0.31274131274131267
+      },
+      {
+        "cohort": "GSE161537_all_NSCLC",
+        "gene": "HSPB2",
+        "MW_p": 0.055256157680400125,
+        "BH_FDR": 0.6078177344844014,
+        "AUC_single_gene": 0.35446428571428573
+      },
+      {
+        "cohort": "GSE161537_AD_only",
+        "gene": "DAXX",
+        "MW_p": 0.07449982755705324,
+        "BH_FDR": 0.5986046113164596,
+        "AUC_single_gene": 0.3359073359073359
+      },
+      {
+        "cohort": "GSE161537_AD_only",
+        "gene": "MED1",
+        "MW_p": 0.08162790154315358,
+        "BH_FDR": 0.5986046113164596,
+        "AUC_single_gene": 0.6602316602316602
+      },
+      {
+        "cohort": "GSE161537_AD_only",
+        "gene": "LGALS3",
+        "MW_p": 0.11103247886639564,
+        "BH_FDR": 0.610678633765176,
+        "AUC_single_gene": 0.35328185328185324
+      },
+      {
+        "cohort": "GSE161537_all_NSCLC",
+        "gene": "MED1",
+        "MW_p": 0.14516856358214134,
+        "BH_FDR": 0.9764737138854503,
+        "AUC_single_gene": 0.6107142857142857
+      },
+      {
+        "cohort": "GSE161537_all_NSCLC",
+        "gene": "SQSTM1",
+        "MW_p": 0.192416925363037,
+        "BH_FDR": 0.9764737138854503,
+        "AUC_single_gene": 0.599107142857143
+      },
+      {
+        "cohort": "GSE161537_AD_only",
+        "gene": "LAT",
+        "MW_p": 0.2414252073848373,
+        "BH_FDR": 0.9915797288748679,
+        "AUC_single_gene": 0.6081081081081081
+      },
+      {
+        "cohort": "GSE161537_all_NSCLC",
+        "gene": "ZFP36L1",
+        "MW_p": 0.2752140421532504,
+        "BH_FDR": 0.9764737138854503,
+        "AUC_single_gene": 0.5830357142857143
+      }
+    ],
+    "direction_concordant": 13,
+    "number_shared_gene_tests": 22
+  },
+  "PFS": {
+    "cohort_n": [
+      43,
+      70
+    ],
+    "events_six_month": [
+      29,
+      52
+    ],
+    "genes_shared": 30,
+    "FDR_lt_0_05": {
+      "GSE190265": 0,
+      "GSE190266": 0
+    },
+    "meta_FDR_lt_0_05": 0,
+    "top_meta": [
+      {
+        "gene": "MED1",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.7934377606399771,
+        "CI_lo": 0.6485958340935383,
+        "CI_hi": 0.970625229021423,
+        "p": 0.024454249653239234,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.7567340898758197,
+        "HR_cohort_190266": 0.8227359427517671,
+        "Q_heterogeneity": 0.16238709683860134,
+        "p_heterogeneity_chi2_df1": 0.686968216764553,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "MORC3",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8171132608585484,
+        "CI_lo": 0.6519595266259729,
+        "CI_hi": 1.0241035736163615,
+        "p": 0.07955869697445594,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.9681404482338823,
+        "HR_cohort_190266": 0.7412962317570301,
+        "Q_heterogeneity": 1.2444149487730525,
+        "p_heterogeneity_chi2_df1": 0.26462187893794364,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "ESR1",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.816276238186896,
+        "CI_lo": 0.6479730726286754,
+        "CI_hi": 1.0282941146388982,
+        "p": 0.08485895454387313,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.922097885154722,
+        "HR_cohort_190266": 0.7506802236191854,
+        "Q_heterogeneity": 0.7357891748477314,
+        "p_heterogeneity_chi2_df1": 0.391013103478127,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "DDX4",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 1.1353833153309978,
+        "CI_lo": 0.9560648463222261,
+        "CI_hi": 1.348334558781109,
+        "p": 0.14769706036748576,
+        "direction_concordant": true,
+        "HR_cohort_190265": 1.1090351435841082,
+        "HR_cohort_190266": 1.1535473798489797,
+        "Q_heterogeneity": 0.04844815391275988,
+        "p_heterogeneity_chi2_df1": 0.8257859436704087,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "FMR1",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8565813391138739,
+        "CI_lo": 0.6928345374956261,
+        "CI_hi": 1.0590286003499783,
+        "p": 0.1526714147026423,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.9836658391072808,
+        "HR_cohort_190266": 0.7989236569270366,
+        "Q_heterogeneity": 0.8227419359266919,
+        "p_heterogeneity_chi2_df1": 0.36437970603897907,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "GATA3",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8491470146628256,
+        "CI_lo": 0.677699335250789,
+        "CI_hi": 1.0639683632623862,
+        "p": 0.15527960054224768,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.8133969063939868,
+        "HR_cohort_190266": 0.8721126559401912,
+        "Q_heterogeneity": 0.08669579216464893,
+        "p_heterogeneity_chi2_df1": 0.7684205653574865,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "GRB2",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8654025429618821,
+        "CI_lo": 0.7056410557629246,
+        "CI_hi": 1.0613350162217725,
+        "p": 0.16504104907697326,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.979322704440774,
+        "HR_cohort_190266": 0.7676295806420215,
+        "Q_heterogeneity": 1.3674219396356806,
+        "p_heterogeneity_chi2_df1": 0.24225532443920483,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "KHDRBS1",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8666259358521557,
+        "CI_lo": 0.7076373872688135,
+        "CI_hi": 1.061335263234648,
+        "p": 0.1662577311604594,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.9293154806709345,
+        "HR_cohort_190266": 0.8340664733890376,
+        "Q_heterogeneity": 0.2501226279150172,
+        "p_heterogeneity_chi2_df1": 0.6169887446104977,
+        "BH_FDR": 0.6234664918517228
+      },
+      {
+        "gene": "HSPB2",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.8765592873989582,
+        "CI_lo": 0.6924842746590925,
+        "CI_hi": 1.109564812433652,
+        "p": 0.2732941641956139,
+        "direction_concordant": true,
+        "HR_cohort_190265": 0.8258075431843563,
+        "HR_cohort_190266": 0.9036876017534533,
+        "Q_heterogeneity": 0.1256858459664581,
+        "p_heterogeneity_chi2_df1": 0.7229477223312459,
+        "BH_FDR": 0.6729737388084862
+      },
+      {
+        "gene": "EWSR1",
+        "cohorts": "GSE190265;GSE190266",
+        "HR_fixed_effect": 0.884732447836747,
+        "CI_lo": 0.7093179339686706,
+        "CI_hi": 1.1035270176741014,
+        "p": 0.2773681607346419,
+        "direction_concordant": false,
+        "HR_cohort_190265": 1.0152559659664127,
+        "HR_cohort_190266": 0.8028721035390252,
+        "Q_heterogeneity": 1.0510583617043339,
+        "p_heterogeneity_chi2_df1": 0.3052634625423777,
+        "BH_FDR": 0.6729737388084862
+      }
+    ],
+    "mean_score": [
+      {
+        "cohort": "GSE190265",
+        "n": 43,
+        "events": 29,
+        "HR_per_1SD": 0.9600404984366416,
+        "CI_low": 0.7007639680088626,
+        "CI_high": 1.315247074214322,
+        "p": 0.7995737888925492
+      },
+      {
+        "cohort": "GSE190266",
+        "n": 70,
+        "events": 52,
+        "HR_per_1SD": 0.8389368233926072,
+        "CI_low": 0.6419799343969419,
+        "CI_high": 1.0963193021059494,
+        "p": 0.19830068378283128
+      }
+    ]
+  }
+}

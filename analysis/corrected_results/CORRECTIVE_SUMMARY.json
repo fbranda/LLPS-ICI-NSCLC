@@ -1,0 +1,154 @@
+{
+  "external_exact_permutation": {
+    "n": 16,
+    "responders": 5,
+    "AUROC": 0.8363636363636364,
+    "n_exact_label_assignments": 4368,
+    "one_sided_label_permutation_p": 0.0190018315018315,
+    "two_sided_label_permutation_p": 0.038003663003663,
+    "test_conditions": "Fixed locked scores; response-label exchangeability within independent external cohort; does not correct model selection across analyses."
+  },
+  "LAT_immune_proxy": {
+    "Tcell_gene_panel": [
+      "CD3D",
+      "CD8A",
+      "PTPRC",
+      "GZMB",
+      "IFNG",
+      "CXCL9",
+      "CXCL10"
+    ],
+    "LAT_Tcell_spearman_rho": 0.5426384142173615,
+    "LAT_Tcell_spearman_p": 4.111058938739944e-07,
+    "LAT_HOT_spearman_rho": 0.505974025974026,
+    "LAT_HOT_spearman_p": 3.1219680815987414e-06
+  },
+  "HOT_forced_comparison": [
+    {
+      "model": "HOT_only",
+      "repeat": 0,
+      "AUROC": 0.65625,
+      "Brier": 0.21343928491610523
+    },
+    {
+      "model": "HOT_plus_LLPS",
+      "repeat": 0,
+      "AUROC": 0.5071428571428571,
+      "Brier": 0.23058904643513276
+    },
+    {
+      "model": "HOT_only",
+      "repeat": 1,
+      "AUROC": 0.6571428571428573,
+      "Brier": 0.2142491428641854
+    },
+    {
+      "model": "HOT_plus_LLPS",
+      "repeat": 1,
+      "AUROC": 0.5535714285714286,
+      "Brier": 0.26594723366738143
+    },
+    {
+      "model": "HOT_only",
+      "repeat": 2,
+      "AUROC": 0.6607142857142857,
+      "Brier": 0.2137435353856914
+    },
+    {
+      "model": "HOT_plus_LLPS",
+      "repeat": 2,
+      "AUROC": 0.3705357142857143,
+      "Brier": 0.2540101942300567
+    }
+  ],
+  "prevalence_only_Brier_development": 0.19390581717451524,
+  "random_panel_assay_benchmark": {
+    "LLPS_fixed_C_point3_5fold_AUROC": 0.44642857142857145,
+    "random_matched_200_median_AUROC": 0.5044642857142858,
+    "random_matched_200_q05_q95": [
+      0.3239285714285714,
+      0.6527232142857143
+    ],
+    "fraction_random_panels_AUROC_at_least_LLPS": 0.655,
+    "purpose": "Exploratory assay-specific specificity benchmark, not formal evidence of no biological association."
+  },
+  "GEO_linked_PFS": {
+    "N_France3": 26,
+    "N_France4": 70,
+    "tested_genes": 30,
+    "lowest_p": 0.08287571007422369,
+    "lowest_FDR": 0.5730242357875647,
+    "MED1_row": [
+      {
+        "gene": "MED1",
+        "N_France3_GEO_linked": 26,
+        "N_France4": 70,
+        "PFS_6m_events_total": 68,
+        "HR_pooled": 0.7976176789101239,
+        "HR95_low": 0.6177394026626278,
+        "HR95_high": 1.0298743434007955,
+        "p": 0.08287571007422369,
+        "Q": 0.5752058283030814,
+        "I2": 0.0,
+        "HR_France3": 0.5818598192642963,
+        "HR_France4": 0.8227359427517671,
+        "BH_FDR_within_family": 0.5730242357875647
+      }
+    ]
+  },
+  "reference_MLORS_PFS_genes_tested": [
+    "E2F7",
+    "F2",
+    "GRIA1",
+    "IGF2BP1",
+    "MGAT5B"
+  ],
+  "GSE126044_MLORS_six_reference": [
+    {
+      "gene": "MGAT5B",
+      "AUROC": 0.4181818181818182,
+      "MW_p": 0.6611721611721613,
+      "N": 16,
+      "responders": 5
+    },
+    {
+      "gene": "E2F7",
+      "AUROC": 0.2,
+      "MW_p": 0.06868131868131869,
+      "N": 16,
+      "responders": 5
+    },
+    {
+      "gene": "IGF2BP1",
+      "AUROC": 0.5636363636363636,
+      "MW_p": 0.7426739926739928,
+      "N": 16,
+      "responders": 5
+    },
+    {
+      "gene": "F2",
+      "AUROC": 0.3818181818181819,
+      "MW_p": 0.5096153846153847,
+      "N": 16,
+      "responders": 5
+    },
+    {
+      "gene": "POPDC3",
+      "AUROC": 0.23636363636363633,
+      "MW_p": 0.11492673992673993,
+      "N": 16,
+      "responders": 5
+    },
+    {
+      "gene": "GRIA1",
+      "AUROC": 0.6363636363636365,
+      "MW_p": 0.427427515560152,
+      "N": 16,
+      "responders": 5
+    }
+  ],
+  "response_global_screens": {
+    "number_tests": 79,
+    "min_global_FDR": 0.3038461538461533
+  }
+}

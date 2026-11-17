@@ -1,0 +1,131 @@
+{
+  "PhaSePro_source_records_human_symbols": 59,
+  "GSE161537": {
+    "matrix_genes": 2559,
+    "matrix_samples": 82,
+    "meta_samples": 82,
+    "RECIST_labeled": 76,
+    "responders": 20,
+    "histology_AD_samples": 55,
+    "AD_response_labeled": 51,
+    "PhaSePro_genes_measured": 22,
+    "MLORS_genes_measured": [
+      "F2"
+    ]
+  },
+  "GSE126044": {
+    "matrix_genes": 18745,
+    "matrix_samples": 16,
+    "meta_samples": 16,
+    "response_labeled": 16,
+    "responders": 5,
+    "PhaSePro_genes_measured": 57,
+    "MLORS_genes_measured": [
+      "E2F7",
+      "F2",
+      "GRIA1",
+      "IGF2BP1",
+      "MGAT5B",
+      "POPDC3"
+    ]
+  },
+  "GSE190265": {
+    "expression_genes": 33976,
+    "expression_samples_with_supplemental_PFS": 43,
+    "GEO_annotated_samples": 34,
+    "GEO_matched_with_expression": 26,
+    "PFS_with_unlinked_GEO_accession": 17,
+    "six_month_events": 29,
+    "samples_censored_before_6months": 0,
+    "PhaSePro_genes_measured": 56
+  },
+  "GSE190266": {
+    "expression_genes": 16383,
+    "matrix_samples": 70,
+    "GEO_annotated_samples": 70,
+    "six_month_events": 52,
+    "samples_censored_before_6months": 1,
+    "PhaSePro_genes_measured": 30,
+    "last_gene": "MTMR14",
+    "max_feature_count_matches_Excel_columns": true
+  },
+  "GSE135222": {
+    "matrix_ensembl_genes": 57820,
+    "samples": 27,
+    "PFS_events": 21,
+    "status": "PFS available; gene mapping missing, no candidate testing"
+  },
+  "common_PhaSePro_response_genes": [
+    "APP",
+    "CBX5",
+    "CCNT1",
+    "DAXX",
+    "ESR1",
+    "FUS",
+    "GATA3",
+    "GRB2",
+    "HNRNPA1",
+    "HNRNPA2B1",
+    "HSPB2",
+    "LAT",
+    "LGALS3",
+    "MAPT",
+    "MED1",
+    "NPM1",
+    "PML",
+    "SOS1",
+    "SPOP",
+    "SQSTM1",
+    "WASL",
+    "ZFP36L1"
+  ],
+  "common_PhaSePro_PFS_genes": [
+    "AGO2",
+    "APP",
+    "BRD4",
+    "CBX2",
+    "CBX5",
+    "CCNT1",
+    "CPEB3",
+    "DAXX",
+    "DDX3X",
+    "DDX4",
+    "DYRK1A",
+    "DYRK3",
+    "ELN",
+    "ESR1",
+    "EWSR1",
+    "FMR1",
+    "FUS",
+    "GATA3",
+    "GRB2",
+    "HNRNPA1",
+    "HNRNPA2B1",
+    "HNRNPD",
+    "HSPB2",
+    "KHDRBS1",
+    "LAT",
+    "LGALS3",
+    "MAPT",
+    "MATR3",
+    "MED1",
+    "MORC3"
+  ],
+  "source_expression_overlap_with_MLORS": {
+    "GSE190265": [
+      "E2F7",
+      "F2",
+      "GRIA1",
+      "IGF2BP1",
+      "MGAT5B",
+      "POPDC3"
+    ],
+    "GSE190266": [
+      "E2F7",
+      "F2",
+      "GRIA1",
+      "IGF2BP1",
+      "MGAT5B"
+    ]
+  }
+}
